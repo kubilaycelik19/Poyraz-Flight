@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>images/icon/stngs.png</file>
+    <file>images/img/camera.jpg</file>
+    <file>images/icon/Katman 11.png</file>
+    <file>images/icon/close.png</file>
+    <file>images/icon/fullscreen.png</file>
+    <file>images/icon/hide.png</file>
+    <file>images/icon/cil-settings.png</file>
+    <file>images/icon/cil-x.png</file>
+    <file>images/icon/anaSayfa.png</file>
+    <file>images/icon/flightdata.png</file>
+    <file>images/icon/Mission.png</file>
+    <file>images/img/menuu.png</file>
+    <file>images/icon/preFlight.png</file>
+    <file>images/icon/stngs.png</file>
+    <file>images/icon/tmm.png</file>
+    <file>images/icon/um.png</file>
+    <file>images/icon/poyrazLogo.ico</file>
+  </qresource>
+</RCC>

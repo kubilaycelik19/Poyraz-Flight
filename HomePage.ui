@@ -1,0 +1,4528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1921</width>
+    <height>987</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1921</width>
+    <height>987</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1929</width>
+    <height>987</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Poyraz Havacılık</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/envanter/images/img/iconPoyraz.png</normaloff>
+    <normalon>:/envanter/images/img/iconPoyraz.png</normalon>
+    <disabledoff>:/envanter/images/img/iconPoyraz.png</disabledoff>
+    <disabledon>:/envanter/images/img/iconPoyraz.png</disabledon>
+    <activeoff>:/envanter/images/img/iconPoyraz.png</activeoff>
+    <activeon>:/envanter/images/img/iconPoyraz.png</activeon>
+    <selectedoff>:/envanter/images/img/iconPoyraz.png</selectedoff>
+    <selectedon>:/envanter/images/img/iconPoyraz.png</selectedon>:/envanter/images/img/iconPoyraz.png</iconset>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1929</width>
+     <height>987</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1929</width>
+     <height>987</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#centralwidget{
+background-color: rgb(74, 16, 241);
+}</string>
+   </property>
+   <widget class="QFrame" name="leftMenu">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>180</width>
+      <height>981</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>85</width>
+      <height>630</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>180</width>
+      <height>99999</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#leftMenu{
+background-color: rgb(74, 16, 241);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="logoWidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>20</y>
+       <width>180</width>
+       <height>124</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>128</width>
+       <height>124</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>180</width>
+       <height>124</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>99</y>
+        <width>181</width>
+        <height>3</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(32, 123, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_48">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>-24</y>
+        <width>141</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/envanter/images/img/zinkVTOL (2).png);</string>
+      </property>
+      <property name="text">
+       <string>,</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="btn_homePage">
+     <property name="geometry">
+      <rect>
+       <x>-50</x>
+       <y>160</y>
+       <width>250</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Favela-Medium</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+     </property>
+     <property name="text">
+      <string> Envanter </string>
+     </property>
+     <property name="icon">
+      <iconset resource="icon.qrc">
+       <normaloff>:/icon/images/icon/anaSayfa.png</normaloff>
+       <normalon>:/icon/images/icon/anaSayfa.png</normalon>
+       <disabledoff>:/icon/images/icon/anaSayfa.png</disabledoff>
+       <activeon>:/icon/images/icon/anaSayfa.png</activeon>:/icon/images/icon/anaSayfa.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>120</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_package">
+     <property name="geometry">
+      <rect>
+       <x>-38</x>
+       <y>280</y>
+       <width>231</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Favela-Medium</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+     </property>
+     <property name="text">
+      <string> Package  </string>
+     </property>
+     <property name="icon">
+      <iconset resource="icon.qrc">
+       <normaloff>:/icon/images/icon/um.png</normaloff>:/icon/images/icon/um.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>120</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_mission">
+     <property name="geometry">
+      <rect>
+       <x>-51</x>
+       <y>400</y>
+       <width>250</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Favela-Medium</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+     </property>
+     <property name="text">
+      <string> Mission   </string>
+     </property>
+     <property name="icon">
+      <iconset resource="icon.qrc">
+       <normaloff>:/icon/images/icon/Mission.png</normaloff>:/icon/images/icon/Mission.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>120</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_dataFlight">
+     <property name="geometry">
+      <rect>
+       <x>-53</x>
+       <y>520</y>
+       <width>250</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Favela-Medium</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+     </property>
+     <property name="text">
+      <string> Data F.   </string>
+     </property>
+     <property name="icon">
+      <iconset resource="icon.qrc">
+       <normaloff>:/icon/images/icon/flightdata.png</normaloff>:/icon/images/icon/flightdata.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>120</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_preFlight">
+     <property name="geometry">
+      <rect>
+       <x>-50</x>
+       <y>640</y>
+       <width>250</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Favela-Medium</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+     </property>
+     <property name="text">
+      <string> Pre Flight</string>
+     </property>
+     <property name="icon">
+      <iconset resource="icon.qrc">
+       <normaloff>:/icon/images/icon/preFlight.png</normaloff>:/icon/images/icon/preFlight.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>120</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_settings">
+     <property name="geometry">
+      <rect>
+       <x>-50</x>
+       <y>760</y>
+       <width>250</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Favela-Medium</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+     </property>
+     <property name="text">
+      <string> Settings  </string>
+     </property>
+     <property name="icon">
+      <iconset resource="icon.qrc">
+       <normaloff>:/icon/images/icon/stngs.png</normaloff>:/icon/images/icon/stngs.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>120</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_29">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>181</width>
+       <height>3</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(30, 7, 105);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_31">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>360</y>
+       <width>181</width>
+       <height>3</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(30, 7, 105);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_36">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>480</y>
+       <width>181</width>
+       <height>3</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(30, 7, 105);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_41">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>600</y>
+       <width>181</width>
+       <height>3</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(30, 7, 105);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_44">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>720</y>
+       <width>181</width>
+       <height>3</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(30, 7, 105);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_46">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>850</y>
+       <width>181</width>
+       <height>3</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(30, 7, 105);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_poyrazLogo">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>872</y>
+       <width>131</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>75</width>
+       <height>91</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>156</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>130</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="img.qrc">
+       <normaloff>:/envanter/images/img/poyrazHavacilik.png</normaloff>:/envanter/images/img/poyrazHavacilik.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>130</width>
+       <height>120</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="anaFrame">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>0</y>
+      <width>1741</width>
+      <height>990</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1180</width>
+      <height>630</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>9999</width>
+      <height>9999</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="titleBar" native="true">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>1</y>
+       <width>1831</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#titleBar{
+background-color: rgb(74, 16, 241);
+}</string>
+     </property>
+     <widget class="QLabel" name="labelTitle">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>1051</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Favela-Bold</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(74,16,241,255);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="text">
+       <string>ENVANTER</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>118</y>
+        <width>1801</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(32,123,255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>120</y>
+       <width>1791</width>
+       <height>871</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>1050</width>
+       <height>530</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>99999</width>
+       <height>99999</height>
+      </size>
+     </property>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>-6</y>
+        <width>1791</width>
+        <height>931</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>9999999</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#page_mission{
+background-color:rgb(18,4,62);
+}
+#page_envanter{
+background-color:rgb(18,4,62);
+}
+#page_package{
+background-color:rgb(18,4,62);
+}
+#page_settings{
+background-color:rgb(18,4,62);
+}
+#page_dataFlight{
+background-color:rgb(18,4,62);
+}
+
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="currentIndex">
+       <number>5</number>
+      </property>
+      <widget class="QWidget" name="page_envanter">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <widget class="QWidget" name="rightWidget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>1350</x>
+          <y>10</y>
+          <width>391</width>
+          <height>861</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>205</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#rightWidget{
+background-color:rgba(255,255,255,0);
+}</string>
+        </property>
+        <widget class="QPushButton" name="urunpic1">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>50</y>
+           <width>180</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="urun1Sil">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>50</y>
+           <width>40</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Favela-SemiBold</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(74,16,241);</string>
+         </property>
+         <property name="text">
+          <string>X</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="urunpic2">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>250</y>
+           <width>180</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>180</width>
+           <height>180</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="urun2Sil">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>250</y>
+           <width>40</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Favela-SemiBold</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(74,16,241);</string>
+         </property>
+         <property name="text">
+          <string>X</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="urunpic3">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>450</y>
+           <width>180</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>180</width>
+           <height>180</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="urun3Sil">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>450</y>
+           <width>40</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Favela-SemiBold</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(74,16,241);</string>
+         </property>
+         <property name="text">
+          <string>X</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_sepeteEkle">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>680</y>
+           <width>311</width>
+           <height>101</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Favela-Medium</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(32, 123, 255);
+border-radius:10px;</string>
+         </property>
+         <property name="text">
+          <string>Sepete Ekle</string>
+         </property>
+        </widget>
+        <zorder>urun2Sil</zorder>
+        <zorder>urun3Sil</zorder>
+        <zorder>btn_sepeteEkle</zorder>
+        <zorder>urunpic1</zorder>
+        <zorder>urunpic2</zorder>
+        <zorder>urunpic3</zorder>
+        <zorder>urun1Sil</zorder>
+       </widget>
+       <widget class="QPushButton" name="btn_tansiyon">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>60</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/tansiyon aleti1.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_telefon">
+        <property name="geometry">
+         <rect>
+          <x>830</x>
+          <y>320</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/Cep Telefonu1.jpg.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_guckaynagi">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>580</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/gucKaynagi1.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_tablet">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>320</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/Tablet1.jpg.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_ilacKutusu">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>60</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/ilacKutusu1.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_kulaklik">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>320</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/Kulaklik1.jpg.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_nebulizator">
+        <property name="geometry">
+         <rect>
+          <x>830</x>
+          <y>60</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/Nebulizator1.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_boyunluk">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>580</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/Medikal boyunluk1.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_insulin">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>60</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/İnsulin kalemi1.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_kablo">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>580</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/Kablo1.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_laptop">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>320</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>130</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>210</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/newimg/laptop1.jpg.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_package">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <widget class="QFrame" name="leftFrame">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1741</width>
+          <height>891</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>400</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>900</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QFrame" name="titleFrame">
+         <property name="geometry">
+          <rect>
+           <x>26</x>
+           <y>48</y>
+           <width>811</width>
+           <height>811</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>999</width>
+           <height>999</height>
+          </size>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhNone</set>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QWidget" name="widget_3" native="true">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>751</width>
+            <height>231</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>999</width>
+            <height>999</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#QWidget{
+background-color: rgb(32,123,255);
+}</string>
+          </property>
+          <widget class="QLineEdit" name="textisim">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>741</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Favela-Medium</family>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgb(255, 255, 255);
+color:rgb(150,150,150);</string>
+           </property>
+           <property name="maxLength">
+            <number>20</number>
+           </property>
+           <property name="placeholderText">
+            <string>İsim</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="textSoyad">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>741</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Favela-Medium</family>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255,255,255);
+color:rgb(150,150,150);</string>
+           </property>
+           <property name="maxLength">
+            <number>20</number>
+           </property>
+           <property name="placeholderText">
+            <string>Soyisim</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="textTelefon">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>110</y>
+             <width>741</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Favela-Medium</family>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color:rgb(150,150,150);</string>
+           </property>
+           <property name="maxLength">
+            <number>11</number>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string>Telefon (05**-***-**-**)</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="textGondericiGemi">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>150</y>
+             <width>741</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Favela-Medium</family>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color:rgb(150,150,150);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="maxLength">
+            <number>20</number>
+           </property>
+           <property name="placeholderText">
+            <string>Gönderici Gemi</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="textHedefGemi">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>191</y>
+             <width>741</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Favela-Medium</family>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color:rgb(150,150,150);</string>
+           </property>
+           <property name="inputMethodHints">
+            <set>Qt::ImhNone</set>
+           </property>
+           <property name="inputMask">
+            <string/>
+           </property>
+           <property name="maxLength">
+            <number>20</number>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string>Hedef Gemi</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QFrame" name="frame_4">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>0</y>
+            <width>311</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>311</width>
+            <height>80</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="labelPaketBilgisi">
+           <property name="geometry">
+            <rect>
+             <x>35</x>
+             <y>4</y>
+             <width>281</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Favela-Medium</family>
+             <pointsize>20</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(18,4,62);</string>
+           </property>
+           <property name="text">
+            <string>Paket Bilgisi</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="labelPaketBilgiBack">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>16</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(32,123,255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <zorder>labelPaketBilgiBack</zorder>
+          <zorder>labelPaketBilgisi</zorder>
+         </widget>
+         <widget class="QLabel" name="labelPaketBilgisi_2">
+          <property name="geometry">
+           <rect>
+            <x>46</x>
+            <y>315</y>
+            <width>291</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Favela-Medium</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(18,4,62);</string>
+          </property>
+          <property name="text">
+           <string>Paket İçeriği</string>
+          </property>
+         </widget>
+         <widget class="QFrame" name="frame_15">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>360</y>
+            <width>761</width>
+            <height>441</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QPushButton" name="paketurun2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>30</y>
+             <width>220</width>
+             <height>220</height>
+            </rect>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>220</width>
+             <height>220</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+background-color:rgba(80, 70, 230,255);
+border-radius:10px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="flat">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="paketurun1">
+           <property name="geometry">
+            <rect>
+             <x>260</x>
+             <y>30</y>
+             <width>220</width>
+             <height>220</height>
+            </rect>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>220</width>
+             <height>220</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+background-color:rgba(80, 70, 230,255);
+border-radius:10px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="flat">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="paketurun3">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>30</y>
+             <width>220</width>
+             <height>220</height>
+            </rect>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>220</width>
+             <height>220</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+background-color:rgba(80, 70, 230,255);
+border-radius:10px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="flat">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnOnayla">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>300</y>
+             <width>371</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Favela-Medium</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(32, 123, 255);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+           </property>
+           <property name="text">
+            <string>Onayla</string>
+           </property>
+           <property name="autoRepeatDelay">
+            <number>0</number>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QLabel" name="labelPaketBilgiBack_2">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>320</y>
+            <width>16</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(32,123,255);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QFrame" name="rightFrame">
+        <property name="geometry">
+         <rect>
+          <x>850</x>
+          <y>10</y>
+          <width>900</width>
+          <height>871</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>559</width>
+          <height>521</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>900</width>
+          <height>900</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget{
+background-color: rgb(41, 9, 133);
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QFrame" name="frame">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>881</width>
+           <height>201</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>552</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>999</width>
+           <height>999</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="labelPaketBilgiBack_3">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>16</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(32,123,255);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="labelPaketBilgisi_3">
+          <property name="geometry">
+           <rect>
+            <x>46</x>
+            <y>15</y>
+            <width>201</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Favela-Medium</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(41,9,133);</string>
+          </property>
+          <property name="text">
+           <string>Rota Bilgisi</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>23</x>
+            <y>60</y>
+            <width>131</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Favela-Medium</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(41,9,133);
+color:rgb(32,123,255);</string>
+          </property>
+          <property name="text">
+           <string>Nereden</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::PlainText</enum>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_13">
+          <property name="geometry">
+           <rect>
+            <x>401</x>
+            <y>105</y>
+            <width>51</width>
+            <height>28</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="icon.qrc">
+            <normaloff>:/icon/images/icon/Katman 11.png</normaloff>
+            <normalon>:/icon/images/icon/Katman 11.png</normalon>:/icon/images/icon/Katman 11.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>40</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="textNereden_lat">
+          <property name="geometry">
+           <rect>
+            <x>23</x>
+            <y>100</y>
+            <width>180</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);</string>
+          </property>
+          <property name="placeholderText">
+           <string>Lat :</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="textNereye_lat">
+          <property name="geometry">
+           <rect>
+            <x>465</x>
+            <y>100</y>
+            <width>180</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);</string>
+          </property>
+          <property name="placeholderText">
+           <string>Lat :</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>465</x>
+            <y>60</y>
+            <width>101</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Favela-Medium</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(41,9,133);
+color:rgb(32,123,255);</string>
+          </property>
+          <property name="text">
+           <string>Nereye</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="textNereye_lon">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>100</y>
+            <width>180</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);</string>
+          </property>
+          <property name="placeholderText">
+           <string>Lon :</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="textNereden_lon">
+          <property name="geometry">
+           <rect>
+            <x>208</x>
+            <y>100</y>
+            <width>180</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255);</string>
+          </property>
+          <property name="placeholderText">
+           <string>Lon :</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="mapwidget" native="true">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>280</y>
+           <width>700</width>
+           <height>500</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>811</width>
+           <height>611</height>
+          </size>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_mission">
+       <widget class="QPushButton" name="connectBtn">
+        <property name="geometry">
+         <rect>
+          <x>1520</x>
+          <y>120</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-SemiBold</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(255,255,255,0);
+color:rgb(255,255,255);</string>
+        </property>
+        <property name="text">
+         <string>CONNECT</string>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="portBtn">
+        <property name="geometry">
+         <rect>
+          <x>1290</x>
+          <y>115</y>
+          <width>86</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(255,255,255,0);
+color:rgb(32,123,255);</string>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>57600</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comBtn">
+        <property name="geometry">
+         <rect>
+          <x>1400</x>
+          <y>115</y>
+          <width>101</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(255,255,255,0);
+color:rgb(32,123,255);</string>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>UDPİN</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>COM6</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_location">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>110</y>
+          <width>1080</width>
+          <height>720</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1080</width>
+          <height>720</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelSatellite">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>758</y>
+          <width>55</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelFixed">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>720</y>
+          <width>55</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelFixed_2">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>750</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+background-color:rgba(255,255,255,0);</string>
+        </property>
+        <property name="text">
+         <string>Satellite :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelSatellite_2">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>710</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+background-color:rgba(255,255,255,0);</string>
+        </property>
+        <property name="text">
+         <string>Fix-Type :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_47">
+        <property name="geometry">
+         <rect>
+          <x>1281</x>
+          <y>360</y>
+          <width>191</width>
+          <height>36</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(255,255,255,0);
+color: rgb(32, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string>Vehicle Mode: </string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="modeCheck_2">
+        <property name="geometry">
+         <rect>
+          <x>1540</x>
+          <y>364</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:transparent;
+color:rgba(32,123,255,255);</string>
+        </property>
+        <property name="currentIndex">
+         <number>4</number>
+        </property>
+        <property name="frame">
+         <bool>true</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>CHOOSE</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>QHover</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>QLand</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>QRTL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>AUTO</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>GUİDE</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>STABILIZE</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_40">
+        <property name="geometry">
+         <rect>
+          <x>1280</x>
+          <y>250</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(255,255,255,0);
+color: rgb(32, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string>Home: </string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="takeOffBtn">
+        <property name="geometry">
+         <rect>
+          <x>1290</x>
+          <y>620</y>
+          <width>341</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>999</width>
+          <height>999</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(32, 123, 255);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string>TAKE OFF</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>1280</x>
+          <y>300</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(255,255,255,0);
+color: rgb(32, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string>Target Alt: </string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_HomeLocation">
+        <property name="geometry">
+         <rect>
+          <x>1450</x>
+          <y>250</y>
+          <width>191</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(255,255,255,0);
+color:rgba(32,123,255,255);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_targetAlt">
+        <property name="geometry">
+         <rect>
+          <x>1450</x>
+          <y>310</y>
+          <width>191</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(255,255,255,0);
+color:rgba(32,123,255,255);</string>
+        </property>
+        <property name="text">
+         <string>60</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="disarmBtn">
+        <property name="geometry">
+         <rect>
+          <x>1290</x>
+          <y>710</y>
+          <width>341</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>999</width>
+          <height>999</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(32, 123, 255);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string>DISARM</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="armBtn">
+        <property name="geometry">
+         <rect>
+          <x>1290</x>
+          <y>530</y>
+          <width>341</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>999</width>
+          <height>999</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(32, 123, 255);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string>GET ARM</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkCameraOn">
+        <property name="geometry">
+         <rect>
+          <x>1370</x>
+          <y>440</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Bold</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(255,255,255,0);
+color:rgba(32,123,255,255);</string>
+        </property>
+        <property name="text">
+         <string>CAMERA ON</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>1230</x>
+          <y>60</y>
+          <width>461</width>
+          <height>761</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(41,9,133,200);
+color:rgba(32,123,255,255);
+border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>1250</x>
+          <y>100</y>
+          <width>431</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(18,4,62);
+border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelPaketBilgiBack_4">
+        <property name="geometry">
+         <rect>
+          <x>45</x>
+          <y>56</y>
+          <width>16</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(32,123,255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelPaketBilgisi_4">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>50</y>
+          <width>281</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>20</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(18,4,62);</string>
+        </property>
+        <property name="text">
+         <string>Kamera</string>
+        </property>
+       </widget>
+       <zorder>label</zorder>
+       <zorder>label_2</zorder>
+       <zorder>connectBtn</zorder>
+       <zorder>portBtn</zorder>
+       <zorder>comBtn</zorder>
+       <zorder>label_location</zorder>
+       <zorder>labelFixed</zorder>
+       <zorder>label_47</zorder>
+       <zorder>modeCheck_2</zorder>
+       <zorder>label_40</zorder>
+       <zorder>takeOffBtn</zorder>
+       <zorder>label_35</zorder>
+       <zorder>line_HomeLocation</zorder>
+       <zorder>line_targetAlt</zorder>
+       <zorder>disarmBtn</zorder>
+       <zorder>armBtn</zorder>
+       <zorder>checkCameraOn</zorder>
+       <zorder>labelSatellite_2</zorder>
+       <zorder>labelFixed_2</zorder>
+       <zorder>labelPaketBilgiBack_4</zorder>
+       <zorder>labelPaketBilgisi_4</zorder>
+       <zorder>labelSatellite</zorder>
+      </widget>
+      <widget class="QWidget" name="page_dataFlight">
+       <property name="styleSheet">
+        <string notr="true">#page_dataFlight{
+background-color: rgb(74, 16, 241);
+}</string>
+       </property>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>580</y>
+          <width>160</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>160</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>Kumpas</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>1400</x>
+          <y>580</y>
+          <width>160</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>160</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>AirSpeed</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_43">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>580</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>160</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>Alttitude</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_45">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>580</y>
+          <width>200</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>GroundSpeed</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="altGauge" native="true">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>250</y>
+          <width>300</width>
+          <height>300</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>300</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QWidget" name="groundGauge" native="true">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>250</y>
+          <width>300</width>
+          <height>290</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>300</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QWidget" name="airSpeedGauge" native="true">
+        <property name="geometry">
+         <rect>
+          <x>1330</x>
+          <y>250</y>
+          <width>300</width>
+          <height>300</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>300</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QWidget" name="velocityGauges" native="true">
+        <property name="geometry">
+         <rect>
+          <x>910</x>
+          <y>250</y>
+          <width>300</width>
+          <height>300</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>300</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QProgressBar" name="progressBar">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>90</y>
+          <width>401</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(32, 123, 255);</string>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="textDirection">
+         <enum>QProgressBar::TopToBottom</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>40</y>
+          <width>221</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-SemiBold</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(32,123,255);</string>
+        </property>
+        <property name="text">
+         <string>Kalan Pil:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>1741</width>
+          <height>871</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#label_8{
+background-color:rgb(18,4,62);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <zorder>label_8</zorder>
+       <zorder>label_6</zorder>
+       <zorder>label_5</zorder>
+       <zorder>label_43</zorder>
+       <zorder>label_45</zorder>
+       <zorder>altGauge</zorder>
+       <zorder>groundGauge</zorder>
+       <zorder>airSpeedGauge</zorder>
+       <zorder>velocityGauges</zorder>
+       <zorder>progressBar</zorder>
+       <zorder>label_3</zorder>
+      </widget>
+      <widget class="QWidget" name="page_preFlight">
+       <property name="styleSheet">
+        <string notr="true">#page_preFlight{
+background-color:rgb(18,4,62);
+}</string>
+       </property>
+       <widget class="QWidget" name="leftFrame_3" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>831</width>
+          <height>871</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#leftFrame_3{
+background-color: rgba(41, 9, 133,200);
+}</string>
+        </property>
+        <widget class="QLabel" name="label_26">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>370</y>
+           <width>261</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>350</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>is Ready For Arm ?  --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="modeCheck">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>300</y>
+           <width>250</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Favela-Medium</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="frame">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>CHOOSE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>QHover</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>QLand</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>QRTL</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>AUTO</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GUİDE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>STABILIZE</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="labelTelemetry">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>230</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="noRadioEquip">
+         <property name="geometry">
+          <rect>
+           <x>480</x>
+           <y>370</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>NO</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="gpsCheck">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>160</y>
+           <width>250</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Ready</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>160</y>
+           <width>101</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>GPS --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>230</y>
+           <width>241</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Telemetry Signal --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_25">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>300</y>
+           <width>320</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>320</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Command Mode Check  --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="yesRadioEquip">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>370</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>YES</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelTelemetry_2">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>230</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>%</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="switchCheck">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>440</y>
+           <width>91</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Ready</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_24">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>434</y>
+           <width>271</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>350</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>İs switch working ? --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelPaketBilgisi_5">
+         <property name="geometry">
+          <rect>
+           <x>85</x>
+           <y>60</y>
+           <width>281</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Favela-Medium</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(18,4,62,0);</string>
+         </property>
+         <property name="text">
+          <string>Pre Flight Verileri</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelPaketBilgiBack_5">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>66</y>
+           <width>16</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(32,123,255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QFrame" name="rightFrame_3">
+        <property name="geometry">
+         <rect>
+          <x>930</x>
+          <y>120</y>
+          <width>581</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>167</y>
+           <width>300</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Propeller and Engine  --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>380</y>
+           <width>331</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>350</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Mechanic System Check --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>240</y>
+           <width>250</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Safety fuse Check --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>100</y>
+           <width>250</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Is Camera Ready --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>30</y>
+           <width>250</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Battery Level --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>310</y>
+           <width>250</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Favela-SemiBold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>ESC Cable Check --&gt;</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="engineCheck">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>170</y>
+           <width>91</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Ready</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="batteryLabel">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>30</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>100</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_42">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>30</y>
+           <width>16</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>%</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="safetyFuseCheck">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>240</y>
+           <width>91</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Ready</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="mechanicCheck">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>380</y>
+           <width>91</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Ready</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="cameraYesradio">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>100</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>YES</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="cameraNoRadio">
+         <property name="geometry">
+          <rect>
+           <x>450</x>
+           <y>100</y>
+           <width>61</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>NO</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="escCheckBtn">
+         <property name="geometry">
+          <rect>
+           <x>360</x>
+           <y>306</y>
+           <width>181</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string>color: rgb(32, 123, 255);
+font: 12pt &quot;Favela-Medium&quot;;</string>
+         </property>
+         <property name="text">
+          <string>CHECK</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_settings">
+       <widget class="QFrame" name="leftFrame_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>291</width>
+          <height>881</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>110</y>
+           <width>241</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Favela-SemiBold</family>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255,255,255);</string>
+         </property>
+         <property name="text">
+          <string>Current Flight Mode:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>290</y>
+           <width>200</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Favela-SemiBold</family>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255,255,255);
+background-color:transparent;</string>
+         </property>
+         <property name="text">
+          <string>Camera Quality:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_34">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>670</y>
+           <width>230</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>230</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Favela-SemiBold</family>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255,255,255);
+background-color:transparent;</string>
+         </property>
+         <property name="text">
+          <string>User İnformation:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_37">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>470</y>
+           <width>200</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Favela-SemiBold</family>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255,255,255);
+background-color:transparent;</string>
+         </property>
+         <property name="text">
+          <string>Team:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>105</y>
+           <width>241</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+background-color:rgb(32,123,255);
+border-radius:10px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_15">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>285</y>
+           <width>241</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+background-color:rgb(32,123,255);
+border-radius:10px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_20">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>465</y>
+           <width>241</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+background-color:rgb(32,123,255);
+border-radius:10px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_27">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>665</y>
+           <width>251</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+background-color:rgb(32,123,255);
+border-radius:10px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <zorder>label_27</zorder>
+        <zorder>label_20</zorder>
+        <zorder>label_15</zorder>
+        <zorder>label_14</zorder>
+        <zorder>label_32</zorder>
+        <zorder>label_33</zorder>
+        <zorder>label_34</zorder>
+        <zorder>label_37</zorder>
+       </widget>
+       <widget class="QPushButton" name="btnDisarmedMode">
+        <property name="geometry">
+         <rect>
+          <x>1070</x>
+          <y>70</y>
+          <width>200</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>120</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+border-radius: 10px;
+background-color:rgba(74,16,241,255);
+border: 3px solid #207bff;
+color: #fff;
+}
+
+QPushButton:hover {
+background-color:rgb(32,123,255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Disarmed</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnGuideMode">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>70</y>
+          <width>200</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>120</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+border-radius: 10px;
+background-color:rgba(74,16,241,255);
+border: 3px solid #207bff;
+color: #fff;
+}
+
+QPushButton:hover {
+background-color:rgb(32,123,255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Guided</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnAutoMode">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>70</y>
+          <width>200</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>120</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+border-radius: 10px;
+background-color:rgba(74,16,241,255);
+border: 3px solid #207bff;
+color: #fff;
+}
+
+QPushButton:hover {
+background-color:rgb(32,123,255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Auto</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnQrtlMode">
+        <property name="geometry">
+         <rect>
+          <x>810</x>
+          <y>70</y>
+          <width>200</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>120</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+border-radius: 10px;
+background-color:rgba(74,16,241,255);
+border: 3px solid #207bff;
+color: #fff;
+}
+
+QPushButton:hover {
+background-color:rgb(32,123,255);
+}</string>
+        </property>
+        <property name="text">
+         <string>QRTL</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnLowQuality">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>240</y>
+          <width>200</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>120</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+border-radius: 10px;
+background-color:rgba(74,16,241,255);
+border: 3px solid #207bff;
+color: #fff;
+}
+
+QPushButton:hover {
+background-color:rgb(32,123,255);
+}</string>
+        </property>
+        <property name="text">
+         <string>1080x720</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>670</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-SemiBold</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(32, 123, 255);
+font: &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>ID :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="idLabel">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>670</y>
+          <width>100</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>true</underline>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(32, 123, 255);
+font:&quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>ROOT</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_22" native="true">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>430</y>
+          <width>201</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>999</width>
+          <height>999</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/poyrazHavacilik.png);
+background-color:transparent;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnExit">
+        <property name="geometry">
+         <rect>
+          <x>1550</x>
+          <y>760</y>
+          <width>161</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>999</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+border-radius: 10px;
+background-color:rgba(74,16,241,255);
+border: 3px solid #207bff;
+color: #fff;
+}
+
+QPushButton:hover {
+background-color:rgb(32,123,255);
+}</string>
+        </property>
+        <property name="text">
+         <string>&gt; Log Out</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>470</y>
+          <width>101</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-SemiBold</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255,255,255);
+background-color:transparent;</string>
+        </property>
+        <property name="text">
+         <string>Vehicle:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>400</y>
+          <width>321</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/envanter/images/img/ZINKvtol.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>570</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Favela-Medium</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(32, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string>ZINK VTOL</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>465</y>
+          <width>301</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color:rgb(32,123,255);
+border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <zorder>label_28</zorder>
+       <zorder>leftFrame_2</zorder>
+       <zorder>btnDisarmedMode</zorder>
+       <zorder>btnGuideMode</zorder>
+       <zorder>btnAutoMode</zorder>
+       <zorder>btnQrtlMode</zorder>
+       <zorder>btnLowQuality</zorder>
+       <zorder>label_38</zorder>
+       <zorder>idLabel</zorder>
+       <zorder>widget_22</zorder>
+       <zorder>btnExit</zorder>
+       <zorder>label_39</zorder>
+       <zorder>label_11</zorder>
+       <zorder>label_13</zorder>
+      </widget>
+     </widget>
+    </widget>
+    <zorder>widget</zorder>
+    <zorder>titleBar</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
