@@ -1,0 +1,3 @@
+python -m PyQt5.uic.pyuic -x HomePage.ui -o HomePage_python.py -> ui dönüştürme
+python -m PyQt5.uic.pyuic -x login.ui -o login_python.py
+pyrcc5 img.qrc -o img_rc.py -> qrc dönüştürme
