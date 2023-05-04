@@ -1,0 +1,4 @@
+Putty
+VNC Viewer
+Qt Designer
+PyQt5 (pip)

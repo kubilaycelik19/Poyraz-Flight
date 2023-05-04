@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="envanter">
+    <file>images/img/iconPoyraz.png</file>
+    <file>images/img/poyrazHavacilikmavi.png</file>
+    <file>images/img/zinkVTOL (2).png</file>
+    <file>images/img/ZINKvtol.png</file>
+    <file>images/img/poyrazHavacilik.png</file>
+    <file>images/img/loginBG1.jpg</file>
+    <file>images/img/newimg/gucKaynagi1.png</file>
+    <file>images/icon/poyrazLogo.ico</file>
+    <file>images/img/marketbg.jpg</file>
+    <file>images/img/map.jpg</file>
+    <file>images/img/newimg/Cep Telefonu1.jpg.png</file>
+    <file>images/img/newimg/ilacKutusu1.png</file>
+    <file>images/img/newimg/İnsulin kalemi1.png</file>
+    <file>images/img/newimg/Kablo1.png</file>
+    <file>images/img/newimg/Kulaklik1.jpg.png</file>
+    <file>images/img/newimg/laptop1.jpg.png</file>
+    <file>images/img/newimg/Medikal boyunluk1.png</file>
+    <file>images/img/newimg/Nebulizator1.png</file>
+    <file>images/img/newimg/Tablet1.jpg.png</file>
+    <file>images/img/newimg/tansiyon aleti1.png</file>
+  </qresource>
+</RCC>
